@@ -1,0 +1,19 @@
+{
+  "required_api_version": "2",
+  "name": "Islam.uz Prayer Time",
+  "description": "Prayer times for cities in Uzbekistan are based on Islom.uz",
+  "developer_name": "Mashkhurbek",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "demo_kw",
+      "type": "keyword",
+      "name": "Demo",
+      "description": "Demo extension",
+      "default_value": "dm"
+    }
+  ]
+}
