@@ -1,6 +1,6 @@
-# Ulauncher - Islam.uz Prayer Times
+# Ulauncher - Prayer Times (Islom.uz)
 
-![Ulauncher Extension](https://img.shields.io/badge/Ulauncher-Extension-green.svg)   [![StandWithPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/StandWithPalestine.svg)](https://github.com/Safouene1/support-palestine-banner)
+![Ulauncher Extension](https://img.shields.io/badge/Ulauncher-Extension-green.svg)         [![FreePalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/StandWithPalestine.svg)](https://github.com/Safouene1/support-palestine-banner)
 
 ## Description
 
