@@ -9,11 +9,33 @@
   },
   "preferences": [
     {
-      "id": "demo_kw",
+      "id": "kw",
       "type": "keyword",
-      "name": "Demo",
-      "description": "Demo extension",
-      "default_value": "dm"
+      "name": "Prayer Time",
+      "description": "Displays the Azan time based on your location.",
+      "default_value": "prayer"
+    },
+    {
+      "id": "location",
+      "type": "select",
+      "name": "Select Your City",
+      "description": "Only Uzbekistan cities are supported",
+      "default_value": "Toshkent",
+      "options": [
+        {
+          "Toshkent": "Tashkent"
+        },
+        {
+          "Marg'ilon": "Margilan"
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "type": "text",
+      "name": "Choose Language",
+      "description": "Currently 2 available languages. type 'uz' for Uzbek, 'en' for English Language",
+      "default_value": "en"
     }
   ]
 }
