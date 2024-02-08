@@ -23,12 +23,12 @@ Currently, it only serves Uzbekistan cities.
 
 ## Install
 
-First install PIP and check is succesfully installed
+First install PIP and check is succesfully installed:
 ```
 sudo apt install python3-pip && pip3 --version
 ```
 
-Then install required packages via PIP
+Then install required packages via PIP:
 
 ```
 pip3 install requests 
