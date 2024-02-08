@@ -1,12 +1,12 @@
 from ulauncher.api.client.Extension import Extension
 from ulauncher.api.client.EventListener import EventListener
-from ulauncher.api.shared.event import KeywordQueryEvent, ItemEnterEvent
-from ulauncher.api.shared.item.ExtensionResultItem import ExtensionResultItem
+from ulauncher.api.shared.event import KeywordQueryEvent
 from ulauncher.api.shared.action.RenderResultListAction import RenderResultListAction
-from ulauncher.api.shared.action.HideWindowAction import HideWindowAction
+
+from prayer import Prayer
 
 
-class DemoExtension(Extension):
+class PrayerExtension(Extension):
 
     def __init__(self):
         super().__init__()
@@ -16,15 +16,11 @@ class DemoExtension(Extension):
 class KeywordQueryEventListener(EventListener):
 
     def on_event(self, event, extension):
-        items = []
-        for i in range(5):
-            items.append(ExtensionResultItem(icon='images/icon.png',
-                                             name='Item %s' % i,
-                                             description='Item description %s' % i,
-                                             on_enter=HideWindowAction()))
-
-        return RenderResultListAction(items)
+        location = extension.preferences["location"]
+        language = extension.preferences["language"]
+        prayer = Prayer(location, language)
+        return RenderResultListAction(prayer.get_result_list())
 
 
 if __name__ == '__main__':
-    DemoExtension().run()
+    PrayerExtension().run()

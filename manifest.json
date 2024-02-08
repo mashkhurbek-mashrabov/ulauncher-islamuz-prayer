@@ -406,10 +406,20 @@
     },
     {
       "id": "language",
-      "type": "text",
-      "name": "Choose Language",
-      "description": "Currently 2 available languages. type 'uz' for Uzbek, 'en' for English Language",
-      "default_value": "en"
+      "type": "select",
+      "name": "Select Language",
+      "description": "Currently 2 available languages",
+      "default_value": "en",
+      "options": [
+        {
+          "value": "en",
+          "text": "English"
+        },
+        {
+          "value": "uz",
+          "text": "Uzbek"
+        }
+      ]
     }
   ]
 }
