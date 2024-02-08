@@ -13,7 +13,7 @@
       "type": "keyword",
       "name": "Prayer Time",
       "description": "Displays the Azan time based on your location.",
-      "default_value": "prayer"
+      "default_value": "islamuz"
     },
     {
       "id": "location",
@@ -23,10 +23,384 @@
       "default_value": "Toshkent",
       "options": [
         {
-          "Toshkent": "Tashkent"
+          "value": "Andijon",
+          "text": "Andijon"
         },
         {
-          "Marg'ilon": "Margilan"
+          "value": "Angren",
+          "text": "Angren"
+        },
+        {
+          "value": "Arnasоy",
+          "text": "Arnasоy"
+        },
+        {
+          "value": "Ashxabоd",
+          "text": "Ashxabоd"
+        },
+        {
+          "value": "Bekоbоd",
+          "text": "Bekоbоd"
+        },
+        {
+          "value": "Bishkek",
+          "text": "Bishkek"
+        },
+        {
+          "value": "Bоysun",
+          "text": "Bоysun"
+        },
+        {
+          "value": "Bulоqbоshi",
+          "text": "Bulоqbоshi"
+        },
+        {
+          "value": "Burchmulla",
+          "text": "Burchmulla"
+        },
+        {
+          "value": "Buxoro",
+          "text": "Buxoro"
+        },
+        {
+          "value": "Dehqоnоbоd",
+          "text": "Dehqоnоbоd"
+        },
+        {
+          "value": "Denоv",
+          "text": "Denоv"
+        },
+        {
+          "value": "Do'stlik",
+          "text": "Do'stlik"
+        },
+        {
+          "value": "Dushanbye",
+          "text": "Dushanbye"
+        },
+        {
+          "value": "Farg'оna",
+          "text": "Farg'оna"
+        },
+        {
+          "value": "G'allaоrоl",
+          "text": "G'allaоrоl"
+        },
+        {
+          "value": "G'uzоr",
+          "text": "G'uzоr"
+        },
+        {
+          "value": "Gazli",
+          "text": "Gazli"
+        },
+        {
+          "value": "Guliston",
+          "text": "Guliston"
+        },
+        {
+          "value": "Jalоlоbоd",
+          "text": "Jalоlоbоd"
+        },
+        {
+          "value": "Jambul",
+          "text": "Jambul"
+        },
+        {
+          "value": "Jizzax",
+          "text": "Jizzax"
+        },
+        {
+          "value": "Jоmbоy",
+          "text": "Jоmbоy"
+        },
+        {
+          "value": "Kattaqo'rg'оn",
+          "text": "Kattaqo'rg'оn"
+        },
+        {
+          "value": "Kоnimex",
+          "text": "Kоnimex"
+        },
+        {
+          "value": "Kоnibоdоm",
+          "text": "Kоnibоdоm"
+        },
+        {
+          "value": "Kоsоn",
+          "text": "Kоsоn"
+        },
+        {
+          "value": "Kоsоnsоy",
+          "text": "Kоsоnsоy"
+        },
+        {
+          "value": "Marg'ilon",
+          "text": "Marg'ilon"
+        },
+        {
+          "value": "Mingbulоq",
+          "text": "Mingbulоq"
+        },
+        {
+          "value": "Mo'ynоq",
+          "text": "Mo'ynоq"
+        },
+        {
+          "value": "Mubоrak",
+          "text": "Mubоrak"
+        },
+        {
+          "value": "Nukus",
+          "text": "Nukus"
+        },
+        {
+          "value": "Namangan",
+          "text": "Namangan"
+        },
+        {
+          "value": "Nurоta",
+          "text": "Nurоta"
+        },
+        {
+          "value": "O'g'iz",
+          "text": "O'g'iz"
+        },
+        {
+          "value": "Оltiariq",
+          "text": "Оltiariq"
+        },
+        {
+          "value": "Оltinko'l",
+          "text": "Оltinko'l"
+        },
+        {
+          "value": "Оltо",
+          "text": "Оltо"
+        },
+        {
+          "value": "Оs",
+          "text": "Оs"
+        },
+        {
+          "value": "Оsmat",
+          "text": "Оsmat"
+        },
+        {
+          "value": "Pоp",
+          "text": "Pоp"
+        },
+        {
+          "value": "Paxtaоbоd",
+          "text": "Paxtaоbоd"
+        },
+        {
+          "value": "Quva",
+          "text": "Quva"
+        },
+        {
+          "value": "Qiziltepa",
+          "text": "Qiziltepa"
+        },
+        {
+          "value": "Qоrako'l",
+          "text": "Qоrako'l"
+        },
+        {
+          "value": "Qоrоvulbоzоr",
+          "text": "Qоrоvulbоzоr"
+        },
+        {
+          "value": "Qоngirоt",
+          "text": "Qоngirоt"
+        },
+        {
+          "value": "Qоrg'оntepa",
+          "text": "Qоrg'оntepa"
+        },
+        {
+          "value": "Qumqоrg'оn",
+          "text": "Qumqоrg'оn"
+        },
+        {
+          "value": "Rishtоn",
+          "text": "Rishtоn"
+        },
+        {
+          "value": "Samarqand",
+          "text": "Samarqand"
+        },
+        {
+          "value": "Sayram",
+          "text": "Sayram"
+        },
+        {
+          "value": "Shahrixоn",
+          "text": "Shahrixоn"
+        },
+        {
+          "value": "Sherоbоd",
+          "text": "Sherоbоd"
+        },
+        {
+          "value": "Shоvоt",
+          "text": "Shоvоt"
+        },
+        {
+          "value": "Shumanay",
+          "text": "Shumanay"
+        },
+        {
+          "value": "Tallimarjоn",
+          "text": "Tallimarjоn"
+        },
+        {
+          "value": "Tоmdi",
+          "text": "Tоmdi"
+        },
+        {
+          "value": "Taxtako'pir",
+          "text": "Taxtako'pir"
+        },
+        {
+          "value": "Termiz",
+          "text": "Termiz"
+        },
+        {
+          "value": "Toshhоvuz",
+          "text": "Toshhоvuz"
+        },
+        {
+          "value": "Toshkent",
+          "text": "Toshkent"
+        },
+        {
+          "value": "Turkistоn",
+          "text": "Turkistоn"
+        },
+        {
+          "value": "Turkmanоbоd",
+          "text": "Turkmanоbоd"
+        },
+        {
+          "value": "Uchqоrg'оn",
+          "text": "Uchqоrg'оn"
+        },
+        {
+          "value": "Uchqоrg'оn",
+          "text": "Uchqоrg'оn"
+        },
+        {
+          "value": "Uchquduq",
+          "text": "Uchquduq"
+        },
+        {
+          "value": "Uchtepa",
+          "text": "Uchtepa"
+        },
+        {
+          "value": "Urganch",
+          "text": "Urganch"
+        },
+        {
+          "value": "Urgut",
+          "text": "Urgut"
+        },
+        {
+          "value": "Uzunquduq",
+          "text": "Uzunquduq"
+        },
+        {
+          "value": "Xazоrasp",
+          "text": "Xazоrasp"
+        },
+        {
+          "value": "Xiva",
+          "text": "Xiva"
+        },
+        {
+          "value": "Xo'jand",
+          "text": "Xo'jand"
+        },
+        {
+          "value": "Xo'jaоbоd",
+          "text": "Xo'jaоbоd"
+        },
+        {
+          "value": "Xo'jaоbоd",
+          "text": "Xo'jaоbоd"
+        },
+        {
+          "value": "Xo'n",
+          "text": "Xo'n"
+        },
+        {
+          "value": "Xo'nqо",
+          "text": "Xo'nqо"
+        },
+        {
+          "value": "Xo'nqо",
+          "text": "Xo'nqо"
+        },
+        {
+          "value": "Xоn",
+          "text": "Xоn"
+        },
+        {
+          "value": "Xоnоbоd",
+          "text": "Xоnоbоd"
+        },
+        {
+          "value": "Xоnqa",
+          "text": "Xоnqa"
+        },
+        {
+          "value": "Xоnqa",
+          "text": "Xоnqa"
+        },
+        {
+          "value": "Xоnqо",
+          "text": "Xоnqо"
+        },
+        {
+          "value": "Xоnqо",
+          "text": "Xоnqо"
+        },
+        {
+          "value": "Xоrtаq",
+          "text": "Xоrtаq"
+        },
+        {
+          "value": "Xоrtоn",
+          "text": "Xоrtоn"
+        },
+        {
+          "value": "Yangibоzоr",
+          "text": "Yangibоzоr"
+        },
+        {
+          "value": "Zоmin",
+          "text": "Zоmin"
+        },
+        {
+          "value": "Zarafshоn",
+          "text": "Zarafshоn"
+        },
+        {
+          "value": "Chimkent",
+          "text": "Chimkent"
+        },
+        {
+          "value": "Chimbоy",
+          "text": "Chimbоy"
+        },
+        {
+          "value": "Chоrtоq",
+          "text": "Chоrtоq"
+        },
+        {
+          "value": "Chust",
+          "text": "Chust"
         }
       ]
     },
