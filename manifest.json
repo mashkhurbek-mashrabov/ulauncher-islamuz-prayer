@@ -13,7 +13,7 @@
       "type": "keyword",
       "name": "Prayer Time",
       "description": "Displays the Azan time based on your location.",
-      "default_value": "islamuz"
+      "default_value": "prayer"
     },
     {
       "id": "location",
