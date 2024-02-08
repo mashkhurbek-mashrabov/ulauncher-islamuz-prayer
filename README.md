@@ -28,7 +28,7 @@ First install PIP and check is succesfully installed
 sudo apt install python3-pip && pip3 --version
 ```
 
-Then install required packages via PIP (If you have PEP 668 "externally managed" error click [here](#pep-668))
+Then install required packages via PIP
 
 ```
 pip3 install requests 
